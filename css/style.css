@@ -437,6 +437,15 @@ ul {
         position: relative;
         margin-bottom: 35px; }
         @media (max-width: 767px) {
+          .home_banner_area .banner_inner .overlay {
+            background: url(../img/banner/home-banner-mini.jpg) no-repeat scroll center center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 100%;
+            bottom: 0;
+            z-index: -1; } 
           .home_banner_area .banner_inner .banner_content p {
             margin-bottom: 20px; } }
       .home_banner_area .banner_inner .banner_content h1 {
