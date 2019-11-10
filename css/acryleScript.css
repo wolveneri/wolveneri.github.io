@@ -1,0 +1,31 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 16/03/2019 08:12
+  	*/
+
+@font-face {
+  font-family: "AcryleScript";
+  src: url("../fonts/AcryleScript.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "AcryleScript";
+    src: url("../fonts/AcryleScript.ttf") format("ttf");
+  }
+}
+
+[class^="acryle-"]:before, [class*=" acryle-"]:before,
+[class^="acryle-"]:after, [class*=" acryle-"]:after {   
+  font-family: Flaticon;
+  font-size: 72px;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.acryle-balloon:before { content: "\f100"; }
+.acryle-camera:before { content: "\f101"; }
+.acryle-send:before { content: "\f102"; }
+.acryle-leaf:before { content: "\f103"; }
