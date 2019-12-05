@@ -599,7 +599,7 @@ ul {
 .hero-banner {
   position: relative;
   padding: 205px 0 150px !important;
-  background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
+  background: url(../img/banner/home-banner-base.jpg) no-repeat scroll center center;
   background-size: cover; }
   @media (min-width: 768px) {
     .hero-banner {
@@ -624,7 +624,7 @@ ul {
         margin-bottom: 45px; } }
   .hero-banner h2 {
     font-size: 35px;
-    color: #2a2a2a;
+    color: #ffffff; /* color "about us" */
     text-transform: capitalize;
     margin-bottom: 0; }
     @media (min-width: 768px) {
@@ -665,13 +665,13 @@ ul {
       padding: .1rem; }
       .banner-breadcrumb .breadcrumb-item a {
         text-transform: capitalize;
-        color: #2a2a2a; }
+        color: #ffffff; }
       .banner-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-        color: #2a2a2a;
+        color: #ffffff;
         padding-left: .2rem;
         padding-right: .4rem; }
       .banner-breadcrumb .breadcrumb-item.active {
-        color: #2a2a2a; }
+        color: #ffffff; }
   .banner-breadcrumb .breadcrumb-item a:hover {
     color: #f81c1c; }
 
